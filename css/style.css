@@ -1,0 +1,323 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    padding: 20px;
+}
+
+/******************start of header****************/
+.navbar navbar-expand-lg navbar-light bg-light{
+    position: fixed;
+   
+}
+
+
+nav .navbar-brand h3{
+    color: green;
+    font-weight: bold;
+}
+.collapse .navbar-nav{
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 50px;
+  
+}
+.collapse .navbar-nav .nav-link{
+    padding-right: 10px;
+    
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(9 183 6 / 68%)
+}
+
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding-left:30px;
+    padding-right: 30px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius:25px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+button {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*.navbar a, .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #37423b;
+    white-space: nowrap;
+    transition: 0.3s;
+}*/
+/*******************end of header****************************/
+/*********************start of part 1**************************************/
+.part1 {
+    background: url(../images/bg.jpg) top center ;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 2;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.part1 .content1 {
+    color: white;
+   
+}
+.btn-outline-success {
+    color: #fff;
+    background-color: transparent;
+    background-image: none;
+    border:2px solid #fff;
+}
+/********************* end of part 1**************************************/
+
+/*********************start of part 2**************************************/
+.part2{
+   padding-top: 50px;
+   padding-bottom: 35px;
+   
+}
+
+.content2{
+    background-color: rgb(9 183 6 / 68%);
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.content2 h3{
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+}
+
+.content2 p{
+    font-size: 16px;
+    color: white;
+}
+
+.content{
+    border: 1px solid rgb(218, 218, 218);
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.content h2{
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.content p{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.content i{
+    font-size: 25px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 50%;
+    padding: 15px;
+    color: rgb(9 183 6 / 68%);
+}
+
+
+/********************* end of part 2**************************************/
+
+/**********************start of part 3************************************/
+.sections{
+    margin-top: 20px;
+}
+
+/* .sections .sec{
+    border: 1px solid green;
+    width: 1000px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: flex;
+    height: 50px;
+   text-align: center;
+} */
+
+.sec{
+    border: 1px solid rgb(197, 197, 197);
+    margin-bottom: 15px;
+    padding:5px
+    
+}
+.sec:hover{
+    border: 1px solid #5fcf80; 
+}
+
+
+.sec p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+   
+   
+}
+.sec p:hover{
+    color: #5fcf80; 
+}
+
+
+.sec i{
+    font-size: 22px;
+}
+.ri-store-line{
+    color: rgb(204, 58, 5);
+}
+.ri-bar-chart-box-line{
+    color: rgb(61, 61, 236);
+}
+.ri-calendar-todo-line{
+    color:rgb(221, 34, 72);
+}
+.ri-paint-brush-line{
+    color:rgb(207, 14, 207);
+}
+.ri-database-2-line{
+    color:rgb(116, 116, 189) ;
+}
+.ri-gradienter-line{
+    color:tomato ;
+}
+.ri-file-list-3-line{
+    color:rgb(20, 172, 172) ;
+}
+.ri-price-tag-2-line{
+    color:rgb(48, 48, 138) ;
+}
+.ri-anchor-line{
+    color: rgba(146, 24, 24, 0.664);
+}
+.ri-disc-line{
+    color:cornflowerblue;
+}
+.ri-base-station-fill{
+    color:darkslateblue ;
+}
+.ri-fingerprint-line{
+    color:green;
+}
+
+
+/*********************end of part 3***********************************/
+
+/*********************start of part 4***********************************/
+.part4{
+    margin-top: 20px;
+ 
+}
+.title h3{
+    padding-bottom: 10px;
+    color: rgb(177, 173, 173);
+    font-size: 15px;
+}
+.title h3::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #9ae1af;
+    margin: 4px 10px;
+}
+.title h2{
+    padding-bottom: 20px;
+}
+.top-d{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.top-d h4{
+    font-size: 14px;
+    background: #5fcf80;
+    padding: 7px 14px;
+    color: white;
+}
+.card-body h2{
+    font-size: 25px;
+    width: 100%;
+}
+.card-body h2:hover{
+    color: #5fcf80; 
+
+}
+.card-body p{
+color:rgb(112, 107, 107); 
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size:  15px;
+    color:rgb(114, 111, 111); 
+
+} 
+
+.end-d img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/*********************end of part 4***********************************/
+
+/********************start of part 5***********************************/
+.part5{
+    margin-top: 70px;
+}
+.trainer{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;  
+}
+.trainer span{
+    font-style: italic;
+    font-size: 15px;
+}
+.trainer p{
+    padding: 10px;
+    color:rgb(114, 111, 111); 
+    font-size: 16px;
+    font-style: italic;
+
+}
+.social i{
+font-size: 20px;
+color:rgb(114, 111, 111) ;
+}
+
+
+
+
+/*********************end of part 5***********************************/
